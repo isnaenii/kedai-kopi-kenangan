@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 0 10px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-toggle {
+    display: none;
+    /* sembunyikan tombol navigasi di desktop */
+}
+
+@media (max-width: 768px) {
+
+    /* tampilkan tombol navigasi di perangkat mobile */
+    .navbar-toggle {
+        display: block;
+    }
+
+    /* sembunyikan menu di perangkat mobile */
+    .navbar-menu {
+        display: none;
+    }
+}
