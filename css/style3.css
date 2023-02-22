@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+}
+
+/*NAVBAR*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #503b26;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    /* background-color: yellowgreen; */
+    justify-content: flex-start;
+}
+
+.navbar .navbar-logo span {
+    color: var(--primary)
+}
+
+.navbar a {
+    color: #fff;
+}
+
+
+.navbar .navbar-extra a {
+    color: #fff;
+}
+
+.navbar .navbar-extra {
+    display: flex;
+}
+
+.navbar .navbar-extra .kiri {
+    /* background-color: green; */
+    justify-content: center;
+    display: flex;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+
+.navbar .navbar-extra .kiri a {
+    padding: 1rem;
+}
+
+.navbar .navbar-extra .kanan {
+    /* background-color: blue; */
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    justify-content: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: yellowgreen;
+}
